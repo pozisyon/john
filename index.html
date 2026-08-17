@@ -1,12 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Marcelin John Photography</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesome -->
@@ -24,35 +25,71 @@
 
 <body>
 
-<!-- =========================
+<!-- ==================================================
      NAVBAR
-========================= -->
+================================================== -->
 
 <header class="header">
 
     <div class="container navbar">
 
-        <a href="#" class="logo">
-            <span class="logo-main">Marcelin John</span>
-            <span class="logo-small">PHOTOGRAPHY</span>
+        <!-- LOGO -->
+        <a href="#accueil" class="logo">
+
+            <span class="logo-main">
+                Marcelin John
+            </span>
+
+            <span class="logo-small">
+                PHOTOGRAPHY
+            </span>
+
         </a>
 
+
+        <!-- MENU -->
         <nav class="nav-menu" id="navMenu">
 
-            <a href="#accueil">Accueil</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#apropos">À propos</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+            <a href="#accueil">
+                Accueil
+            </a>
+
+            <a href="#portfolio">
+                Portfolio
+            </a>
+
+            <a href="#apropos">
+                À propos
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
 
         </nav>
 
+
+        <!-- BOUTON RESERVATION -->
         <a href="#contact" class="btn-nav">
+
             Réserver une séance
+
         </a>
 
-        <button class="menu-toggle" id="menuToggle">
+
+        <!-- MENU MOBILE -->
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Ouvrir le menu"
+        >
+
             <i class="fa-solid fa-bars"></i>
+
         </button>
 
     </div>
@@ -60,43 +97,69 @@
 </header>
 
 
-<!-- =========================
-     HERO CAROUSEL
-========================= -->
+
+<!-- ==================================================
+     HERO + CAROUSEL
+================================================== -->
 
 <section class="hero" id="accueil">
 
     <div class="carousel">
 
-        <!-- Slide 1 -->
 
-        <div class="slide active"
-             style="background-image: url('images/hero.jpg');">
+        <!-- =========================
+             SLIDE 1
+        ========================== -->
+
+        <div
+            class="slide active"
+            style="background-image: url('images/hero.jpeg');"
+        >
 
             <div class="overlay"></div>
+
 
             <div class="container hero-content">
 
                 <p class="welcome">
+
                     Bienvenue sur mon portfolio
+
                 </p>
 
+
                 <h1>
+
                     Marcelin John
+
                 </h1>
 
+
                 <h2>
+
                     Photographe
+
                 </h2>
 
+
                 <p class="hero-description">
-                    Capturer l'instant, raconter une histoire
+
+                    Capturer l'instant,
+                    raconter une histoire
                     et créer des souvenirs intemporels.
+
                 </p>
 
-                <a href="#portfolio" class="btn">
+
+                <a
+                    href="#portfolio"
+                    class="btn"
+                >
+
                     Découvrir mon travail
+
                     <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
@@ -104,34 +167,60 @@
         </div>
 
 
-        <!-- Slide 2 -->
 
-        <div class="slide"
-             style="background-image: url('images/photo2.jpg');">
+        <!-- =========================
+             SLIDE 2
+        ========================== -->
+
+        <div
+            class="slide"
+            style="background-image: url('images/photo2.jpeg');"
+        >
 
             <div class="overlay"></div>
+
 
             <div class="container hero-content">
 
                 <p class="welcome">
+
                     Chaque image raconte une histoire
+
                 </p>
+
 
                 <h1>
+
                     Mariage
+
                 </h1>
 
+
                 <h2>
+
                     & Émotions
+
                 </h2>
 
+
                 <p class="hero-description">
-                    Immortaliser les émotions les plus
-                    importantes de votre vie.
+
+                    Immortaliser les émotions
+                    et les moments les plus importants
+                    de votre vie.
+
                 </p>
 
-                <a href="#portfolio" class="btn">
+
+                <a
+                    href="#portfolio"
+                    class="btn"
+                >
+
                     Voir mes photos
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
@@ -139,34 +228,60 @@
         </div>
 
 
-        <!-- Slide 3 -->
 
-        <div class="slide"
-             style="background-image: url('images/photo4.jpg');">
+        <!-- =========================
+             SLIDE 3
+        ========================== -->
+
+        <div
+            class="slide"
+            style="background-image: url('images/photo4.jpeg');"
+        >
 
             <div class="overlay"></div>
+
 
             <div class="container hero-content">
 
                 <p class="welcome">
+
                     Portrait • Mode • Lifestyle
+
                 </p>
+
 
                 <h1>
+
                     Votre image
+
                 </h1>
 
+
                 <h2>
+
                     Votre histoire
+
                 </h2>
 
+
                 <p class="hero-description">
-                    Des portraits authentiques qui mettent
-                    en valeur votre personnalité.
+
+                    Des portraits authentiques
+                    qui mettent en valeur
+                    votre personnalité.
+
                 </p>
 
-                <a href="#contact" class="btn">
+
+                <a
+                    href="#contact"
+                    class="btn"
+                >
+
                     Réserver une séance
+
+                    <i class="fa-solid fa-camera"></i>
+
                 </a>
 
             </div>
@@ -174,24 +289,59 @@
         </div>
 
 
-        <!-- Carousel buttons -->
 
-        <button class="carousel-btn prev" id="prevBtn">
+        <!-- =========================
+             FLECHE GAUCHE
+        ========================== -->
+
+        <button
+            class="carousel-btn prev"
+            id="prevBtn"
+            aria-label="Photo précédente"
+        >
+
             <i class="fa-solid fa-chevron-left"></i>
+
         </button>
 
-        <button class="carousel-btn next" id="nextBtn">
+
+
+        <!-- =========================
+             FLECHE DROITE
+        ========================== -->
+
+        <button
+            class="carousel-btn next"
+            id="nextBtn"
+            aria-label="Photo suivante"
+        >
+
             <i class="fa-solid fa-chevron-right"></i>
+
         </button>
 
 
-        <!-- dots -->
+
+        <!-- =========================
+             CAROUSEL DOTS
+        ========================== -->
 
         <div class="carousel-dots">
 
-            <span class="dot active" data-slide="0"></span>
-            <span class="dot" data-slide="1"></span>
-            <span class="dot" data-slide="2"></span>
+            <span
+                class="dot active"
+                data-slide="0"
+            ></span>
+
+            <span
+                class="dot"
+                data-slide="1"
+            ></span>
+
+            <span
+                class="dot"
+                data-slide="2"
+            ></span>
 
         </div>
 
@@ -200,40 +350,82 @@
 </section>
 
 
-<!-- =========================
-     PORTFOLIO
-========================= -->
 
-<section class="portfolio section" id="portfolio">
+<!-- ==================================================
+     PORTFOLIO
+================================================== -->
+
+<section
+    class="portfolio section"
+    id="portfolio"
+>
 
     <div class="container">
 
+
+        <!-- TITRE -->
+
         <div class="section-title">
 
-            <span>Portfolio</span>
+            <span>
 
-            <h2>Mes photos en vedette</h2>
+                Portfolio
+
+            </span>
+
+
+            <h2>
+
+                Mes photos en vedette
+
+            </h2>
+
 
             <p>
-                Une sélection de quelques-uns de mes travaux.
+
+                Une sélection de quelques-uns
+                de mes travaux.
+
             </p>
 
         </div>
 
 
+
+        <!-- ==================================================
+             GALERIE - 6 PHOTOS
+        ================================================== -->
+
         <div class="gallery">
 
-            <div class="gallery-item"
-                 data-image="images/photo1.jpg">
 
-                <img src="images/photo1.jpg" alt="Portrait">
+            <!-- PHOTO 1 -->
+
+            <div
+                class="gallery-item"
+                data-image="images/photo1.jpeg"
+            >
+
+                <img
+                    src="images/photo1.jpeg"
+                    alt="Portrait réalisé par Marcelin John"
+                >
+
 
                 <div class="gallery-overlay">
 
                     <div>
-                        <h3>Portrait</h3>
-                        <p>Portrait Photography</p>
+
+                        <h3>
+                            Portrait
+                        </h3>
+
+                        <p>
+                            Portrait Photography
+                        </p>
+
                     </div>
+
 
                     <i class="fa-solid fa-magnifying-glass-plus"></i>
 
@@ -242,17 +434,34 @@
             </div>
 
 
-            <div class="gallery-item"
-                 data-image="images/photo2.jpg">
 
-                <img src="images/photo2.jpg" alt="Mariage">
+            <!-- PHOTO 2 -->
+
+            <div
+                class="gallery-item"
+                data-image="images/photo2.jpeg"
+            >
+
+                <img
+                    src="images/photo2.jpeg"
+                    alt="Photographie de mariage"
+                >
+
 
                 <div class="gallery-overlay">
 
                     <div>
-                        <h3>Mariage</h3>
-                        <p>Wedding Photography</p>
+
+                        <h3>
+                            Mariage
+                        </h3>
+
+                        <p>
+                            Wedding Photography
+                        </p>
+
                     </div>
+
 
                     <i class="fa-solid fa-magnifying-glass-plus"></i>
 
@@ -261,17 +470,34 @@
             </div>
 
 
-            <div class="gallery-item"
-                 data-image="images/photo3.jpg">
 
-                <img src="images/photo3.jpg" alt="Paysage">
+            <!-- PHOTO 3 -->
+
+            <div
+                class="gallery-item"
+                data-image="images/photo3.jpeg"
+            >
+
+                <img
+                    src="images/photo3.jpeg"
+                    alt="Photographie artistique"
+                >
+
 
                 <div class="gallery-overlay">
 
                     <div>
-                        <h3>Paysage</h3>
-                        <p>Travel Photography</p>
+
+                        <h3>
+                            Lifestyle
+                        </h3>
+
+                        <p>
+                            Lifestyle Photography
+                        </p>
+
                     </div>
+
 
                     <i class="fa-solid fa-magnifying-glass-plus"></i>
 
@@ -280,17 +506,34 @@
             </div>
 
 
-            <div class="gallery-item"
-                 data-image="images/photo4.jpg">
 
-                <img src="images/photo4.jpg" alt="Mode">
+            <!-- PHOTO 4 -->
+
+            <div
+                class="gallery-item"
+                data-image="images/photo4.jpeg"
+            >
+
+                <img
+                    src="images/photo4.jpeg"
+                    alt="Photographie de mode"
+                >
+
 
                 <div class="gallery-overlay">
 
                     <div>
-                        <h3>Mode</h3>
-                        <p>Fashion Photography</p>
+
+                        <h3>
+                            Mode
+                        </h3>
+
+                        <p>
+                            Fashion Photography
+                        </p>
+
                     </div>
+
 
                     <i class="fa-solid fa-magnifying-glass-plus"></i>
 
@@ -299,17 +542,34 @@
             </div>
 
 
-            <div class="gallery-item"
-                 data-image="images/photo5.jpg">
 
-                <img src="images/photo5.jpg" alt="Événement">
+            <!-- PHOTO 5 -->
+
+            <div
+                class="gallery-item"
+                data-image="images/photo5.jpeg"
+            >
+
+                <img
+                    src="images/photo5.jpeg"
+                    alt="Photographie événementielle"
+                >
+
 
                 <div class="gallery-overlay">
 
                     <div>
-                        <h3>Événement</h3>
-                        <p>Event Photography</p>
+
+                        <h3>
+                            Événement
+                        </h3>
+
+                        <p>
+                            Event Photography
+                        </p>
+
                     </div>
+
 
                     <i class="fa-solid fa-magnifying-glass-plus"></i>
 
@@ -318,17 +578,34 @@
             </div>
 
 
-            <div class="gallery-item"
-                 data-image="images/photo6.jpg">
 
-                <img src="images/photo6.jpg" alt="Street">
+            <!-- PHOTO 6 -->
+
+            <div
+                class="gallery-item"
+                data-image="images/photo6.jpeg"
+            >
+
+                <img
+                    src="images/photo6.jpeg"
+                    alt="Photographie urbaine"
+                >
+
 
                 <div class="gallery-overlay">
 
                     <div>
-                        <h3>Street</h3>
-                        <p>Street Photography</p>
+
+                        <h3>
+                            Street
+                        </h3>
+
+                        <p>
+                            Street Photography
+                        </p>
+
                     </div>
+
 
                     <i class="fa-solid fa-magnifying-glass-plus"></i>
 
@@ -343,60 +620,110 @@
 </section>
 
 
-<!-- =========================
-     À PROPOS
-========================= -->
 
-<section class="about section" id="apropos">
+<!-- ==================================================
+     A PROPOS
+================================================== -->
+
+<section
+    class="about section"
+    id="apropos"
+>
 
     <div class="container about-grid">
 
+
+        <!-- IMAGE -->
+
         <div class="about-image">
 
-            <img src="images/photo1.jpg"
-                 alt="Marcelin John Photographe">
+            <img
+                src="images/photo1.jpeg"
+                alt="Marcelin John Photographe"
+            >
 
         </div>
 
+
+
+        <!-- TEXTE -->
 
         <div class="about-content">
 
             <span class="subtitle">
+
                 À propos de moi
+
             </span>
 
+
             <h2>
+
                 Je transforme vos moments
                 en souvenirs.
+
             </h2>
 
-            <p>
-                Je suis Marcelin John, photographe passionné
-                par l'image, la lumière et les émotions.
-            </p>
 
             <p>
-                Mon objectif est de raconter votre histoire
-                à travers des images naturelles,
+
+                Je suis Marcelin John,
+                photographe passionné par l'image,
+                la lumière et les émotions.
+
+            </p>
+
+
+            <p>
+
+                Mon objectif est de raconter
+                votre histoire à travers
+                des images naturelles,
                 élégantes et authentiques.
+
             </p>
 
+
+            <!-- STATISTIQUES -->
 
             <div class="stats">
 
                 <div>
-                    <strong>100+</strong>
-                    <span>Projets</span>
+
+                    <strong>
+                        100+
+                    </strong>
+
+                    <span>
+                        Projets
+                    </span>
+
                 </div>
 
-                <div>
-                    <strong>95+</strong>
-                    <span>Clients</span>
-                </div>
 
                 <div>
-                    <strong>5+</strong>
-                    <span>Années</span>
+
+                    <strong>
+                        95+
+                    </strong>
+
+                    <span>
+                        Clients
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        5+
+                    </strong>
+
+                    <span>
+                        Années
+                    </span>
+
                 </div>
 
             </div>
@@ -408,62 +735,110 @@
 </section>
 
 
-<!-- =========================
-     SERVICES
-========================= -->
 
-<section class="services section" id="services">
+<!-- ==================================================
+     SERVICES
+================================================== -->
+
+<section
+    class="services section"
+    id="services"
+>
 
     <div class="container">
 
+
         <div class="section-title">
 
-            <span>Services</span>
+            <span>
 
-            <h2>Mes prestations</h2>
+                Services
+
+            </span>
+
+
+            <h2>
+
+                Mes prestations
+
+            </h2>
+
+
+            <p>
+
+                Des services photographiques
+                adaptés à vos projets.
+
+            </p>
 
         </div>
 
 
+
         <div class="services-grid">
+
+
+            <!-- PORTRAIT -->
 
             <div class="service-card">
 
                 <i class="fa-solid fa-camera"></i>
 
-                <h3>Portrait</h3>
+                <h3>
+                    Portrait
+                </h3>
 
                 <p>
-                    Portrait individuel, professionnel,
+
+                    Portrait individuel,
+                    professionnel,
                     lifestyle et shooting personnel.
+
                 </p>
 
             </div>
 
+
+
+            <!-- MARIAGE -->
 
             <div class="service-card">
 
                 <i class="fa-solid fa-heart"></i>
 
-                <h3>Mariage</h3>
+                <h3>
+                    Mariage
+                </h3>
 
                 <p>
-                    Photographie de mariage et
-                    célébrations.
+
+                    Photographie de mariage,
+                    fiançailles et célébrations
+                    de vos moments importants.
+
                 </p>
 
             </div>
 
 
+
+            <!-- EVENEMENTS -->
+
             <div class="service-card">
 
                 <i class="fa-solid fa-champagne-glasses"></i>
 
-                <h3>Événements</h3>
+                <h3>
+                    Événements
+                </h3>
 
                 <p>
-                    Anniversaires, soirées, cérémonies
+
+                    Anniversaires,
+                    soirées,
+                    cérémonies
                     et événements professionnels.
+
                 </p>
 
             </div>
@@ -475,35 +850,54 @@
 </section>
 
 
-<!-- =========================
-     CONTACT
-========================= -->
 
-<section class="contact section" id="contact">
+<!-- ==================================================
+     CONTACT
+================================================== -->
+
+<section
+    class="contact section"
+    id="contact"
+>
 
     <div class="container contact-wrapper">
+
 
         <div>
 
             <span class="subtitle">
+
                 Contact
+
             </span>
 
+
             <h2>
+
                 Créons quelque chose
                 de magnifique.
+
             </h2>
 
+
             <p>
-                Vous souhaitez réserver une séance
+
+                Vous souhaitez réserver
+                une séance photo
                 ou discuter d'un projet ?
+
             </p>
 
         </div>
 
 
-        <a href="mailto:marcelinjohn.photography@gmail.com"
-           class="btn">
+
+        <a
+            href="mailto:marcelinjohn.photography@gmail.com"
+            class="btn"
+        >
+
+            <i class="fa-solid fa-envelope"></i>
 
             Me contacter
 
@@ -514,56 +908,97 @@
 </section>
 
 
-<!-- =========================
+
+<!-- ==================================================
      FOOTER
-========================= -->
+================================================== -->
 
 <footer>
 
     <div class="container footer-grid">
 
+
+        <!-- LOGO -->
+
         <div>
 
             <div class="footer-logo">
+
                 Marcelin John
+
             </div>
 
             <p>
+
                 Photography
+
+            </p>
+
+            <p>
+
+                Capturer l'instant,
+                raconter votre histoire.
+
             </p>
 
         </div>
 
 
+
+        <!-- ==================================================
+             RESEAUX SOCIAUX
+        ================================================== -->
+
         <div class="social">
 
-            <h4>Suivez-moi</h4>
+            <h4>
+
+                Suivez-moi
+
+            </h4>
+
 
             <div class="social-links">
 
-                <!-- Mete vrè liens yo -->
 
-                <a href="https://www.tiktok.com/"
-                   target="_blank"
-                   aria-label="TikTok">
+                <!-- TIKTOK -->
+
+                <a
+                    href="https://www.tiktok.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok"
+                >
 
                     <i class="fa-brands fa-tiktok"></i>
 
                 </a>
 
 
-                <a href="https://www.facebook.com/"
-                   target="_blank"
-                   aria-label="Facebook">
+
+                <!-- FACEBOOK -->
+
+                <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                >
 
                     <i class="fa-brands fa-facebook-f"></i>
 
                 </a>
 
 
-                <a href="https://www.instagram.com/"
-                   target="_blank"
-                   aria-label="Instagram">
+
+                <!-- INSTAGRAM -->
+
+                <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                >
 
                     <i class="fa-brands fa-instagram"></i>
 
@@ -574,23 +1009,39 @@
         </div>
 
 
+
+        <!-- CONTACT -->
+
         <div>
 
-            <h4>Contact</h4>
+            <h4>
+
+                Contact
+
+            </h4>
+
 
             <p>
+
                 <i class="fa-solid fa-envelope"></i>
+
                 marcelinjohn.photography@gmail.com
+
             </p>
 
+
             <p>
+
                 <i class="fa-solid fa-location-dot"></i>
+
                 Haïti
+
             </p>
 
         </div>
 
     </div>
+
 
 
     <div class="copyright">
@@ -603,24 +1054,43 @@
 </footer>
 
 
-<!-- =========================
+
+<!-- ==================================================
      LIGHTBOX
-========================= -->
+================================================== -->
 
-<div class="lightbox" id="lightbox">
+<div
+    class="lightbox"
+    id="lightbox"
+>
 
-    <button class="lightbox-close" id="closeLightbox">
+    <button
+        class="lightbox-close"
+        id="closeLightbox"
+        aria-label="Fermer la photo"
+    >
+
         <i class="fa-solid fa-xmark"></i>
+
     </button>
 
-    <img id="lightboxImage"
-         src=""
-         alt="Photo">
+
+    <img
+        id="lightboxImage"
+        src=""
+        alt="Photo Marcelin John Photography"
+    >
 
 </div>
 
 
+
+<!-- ==================================================
+     JAVASCRIPT
+================================================== -->
+
 <script src="script.js"></script>
 
 </body>
+
 </html>
